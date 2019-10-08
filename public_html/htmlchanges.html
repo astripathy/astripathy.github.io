@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>jemdoc &ndash; html changes</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Home</div>
+<div class="menu-item"><a href="index.html">bio</a></div>
+<div class="menu-item"><a href="pubs.html">publications</a></div>
+<div class="menu-item"><a href="CV_Aug18.pdf">CV</a></div>
+<div class="menu-category">Research projects</div>
+<div class="menu-item"><a href="pd_research.html">during&nbsp;postdoc</a></div>
+<div class="menu-item"><a href="phd_research.html">in&nbsp;Ph.D.</a></div>
+<div class="menu-item"><a href="prior_research.html">before</a></div>
+<div class="menu-category">Industry</div>
+<div class="menu-item"><a href="internships.html">internships</a></div>
+<div class="menu-category">At Iowa State</div>
+<div class="menu-item"><a href="http://www.dsrg.stuorg.iastate.edu/">Data&nbsp;Science&nbsp;<br /> Reading&nbsp;group</a></div>
+<div class="menu-item"><a href="http://www.gpss.iastate.edu/">GPSS</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>jemdoc &ndash; html changes</h1>
+</div>
+<p>jemdoc has a built-in default configuration. This configuration includes the
+particular html tags used when producing html. If you wish to adjust the html
+that jemdoc produces, you can provide a configuration file to override the
+built-in defaults.</p>
+<h2>Example html change</h2>
+<p>Suppose you wanted to add <a href="http://www.google.com/analytics/" target=&ldquo;blank&rdquo;>Google
+Analytics</a> tracking to your website. That requires adding a short section of
+html before the <tt>&lt;/body&gt;</tt> tag.</p>
+<p>First, find out which block needs to be changed by using</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+jemdoc --show-config
+</pre></div></div>
+<p>This prints the default html configuration. From this, the relevant
+configuration block (the one which includes the <tt>&lt;/body&gt;</tt> tag) has a title
+<tt>[bodyend]</tt>, and looks like</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+[bodyend]
+&lt;/body&gt;
+&lt;/html&gt;
+</pre></div></div>
+<p>Create a new file <tt>mysite.conf</tt>, say, and put a new <tt>[bodyend]</tt> block
+inside it. The new file looks like this:</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+[bodyend]
+&lt;script src="http://www.google-analytics.com/urchin.js" type="text/javascript"&gt;
+&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+_uacct = "UA-0000000-0";
+urchinTracker();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre></div></div>
+<p>Include your new configuration file, with the <tt>-c</tt> option (<a href="using.html" target=&ldquo;blank&rdquo;>more
+details here</a>):</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+jemdoc -c mysite.conf index.jemdoc
+</pre></div></div>
+<p>This will pull in the new <tt>[bodyend]</tt> block from <tt>mysite.conf</tt>, but otherwise
+work as before.</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2018-08-29 08:48:10 CDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

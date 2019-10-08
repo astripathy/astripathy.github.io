@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>jemdoc &ndash; running jemdoc</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Home</div>
+<div class="menu-item"><a href="index.html">bio</a></div>
+<div class="menu-item"><a href="pubs.html">publications</a></div>
+<div class="menu-item"><a href="CV_Aug18.pdf">CV</a></div>
+<div class="menu-category">Research projects</div>
+<div class="menu-item"><a href="pd_research.html">during&nbsp;postdoc</a></div>
+<div class="menu-item"><a href="phd_research.html">in&nbsp;Ph.D.</a></div>
+<div class="menu-item"><a href="prior_research.html">before</a></div>
+<div class="menu-category">Industry</div>
+<div class="menu-item"><a href="internships.html">internships</a></div>
+<div class="menu-category">At Iowa State</div>
+<div class="menu-item"><a href="http://www.dsrg.stuorg.iastate.edu/">Data&nbsp;Science&nbsp;<br /> Reading&nbsp;group</a></div>
+<div class="menu-item"><a href="http://www.gpss.iastate.edu/">GPSS</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>jemdoc &ndash; running jemdoc</h1>
+</div>
+<p>Make sure
+<a href="http://www.python.org/" target=&ldquo;blank&rdquo;>Python</a> is installed, put jemdoc in your path somewhere,
+type in your file, and run</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+jemdoc index.jemdoc
+</pre></div></div>
+<p>This will use a default configuration for the html elements, and create an
+<tt>index.html</tt>.</p>
+<p>Even simpler, you can omit the extension, and jemdoc will still
+process the <tt>index.jemdoc</tt> file, as in</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+jemdoc index
+</pre></div></div>
+<h2>CSS</h2>
+<p>You will need to provide a <a href="http://www.w3.org/Style/CSS/" target=&ldquo;blank&rdquo;>CSS</a> file on your
+server. By default it should be called <tt>jemdoc.css</tt>. Here is an example
+<a href="dist/jemdoc.css" target=&ldquo;blank&rdquo;>jemdoc.css</a> file: download it and place it in the same
+directory as your html files. (Or customize it, or start from scratch!)</p>
+<h2>Change the configuration</h2>
+<p>To choose a different output file, use <tt>-o</tt>:</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+jemdoc -o html/index.html index
+</pre></div></div>
+<p>You can specify a different output directory with <tt>-o</tt>:</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+jemdoc -o html/ index
+</pre></div></div>
+<p>This will instead output to <tt>html/index.html</tt>.</p>
+<p>To change the html configuration (<a href="htmlchanges.html" target=&ldquo;blank&rdquo;>details here</a>), use <tt>-c</tt>:</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+jemdoc -c mysite.conf index
+</pre></div></div>
+<p>Command line options may be combined. For example, the following command will
+use <tt>mysite.conf</tt>, reading syntax from <tt>index.jemdoc</tt> and outputting to
+<tt>html/index.html</tt>:</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+jemdoc -c mysite.conf -o html/ index
+</pre></div></div>
+<h2>Other command line options</h2>
+<p>To check which version of jemdoc you are using, run the command</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+jemdoc --version
+</pre></div></div>
+<p>To get simple command-line help, you can run <tt>jemdoc</tt> without arguments, or</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+jemdoc --help
+</pre></div></div>
+<p>To show the html configuration (<a href="htmlchanges.html" target=&ldquo;blank&rdquo;>details here</a>), run</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+jemdoc --show-config
+</pre></div></div>
+<div id="footer">
+<div id="footer-text">
+Page generated 2018-08-29 08:48:11 CDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

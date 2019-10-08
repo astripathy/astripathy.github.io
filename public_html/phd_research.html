@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Research summary</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Home</div>
+<div class="menu-item"><a href="index.html">bio</a></div>
+<div class="menu-item"><a href="pubs.html">publications</a></div>
+<div class="menu-item"><a href="CV_Aug18.pdf">CV</a></div>
+<div class="menu-category">Research projects</div>
+<div class="menu-item"><a href="pd_research.html">during&nbsp;postdoc</a></div>
+<div class="menu-item"><a href="phd_research.html" class="current">in&nbsp;Ph.D.</a></div>
+<div class="menu-item"><a href="prior_research.html">before</a></div>
+<div class="menu-category">Industry</div>
+<div class="menu-item"><a href="internships.html">internships</a></div>
+<div class="menu-category">At Iowa State</div>
+<div class="menu-item"><a href="http://www.dsrg.stuorg.iastate.edu/">Data&nbsp;Science&nbsp;<br /> Reading&nbsp;group</a></div>
+<div class="menu-item"><a href="http://www.gpss.iastate.edu/">GPSS</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Research summary</h1>
+</div>
+<p>I briefly describe my work on function computation over networks and privacy-preserving data analysis below.</p>
+<h2>Function computation over networks</h2>
+<p>Consider a network of temperature sensors in a centrally air-conditioned building.
+The control unit would take in the temperature readings, i.e., the data, and
+perform some computation on them to decide whether to heat or cool the
+building. Thus, interpreting and making useful conclusions of the data can be
+thought of as computing certain functions on the data. Finding optimal
+procedures and fundamental limits on how efficiently this can be done is
+important for increasingly large datasets.</p>
+<h3>Sum-networks</h3>
+<table class="imgtable"><tr><td>
+<img src="NW_schematic.jpg" alt="Network schematic" width="250px" height="243px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>Sum-networks are a class of function computation problems over networks. We represent a communication network by a directed acyclic graph, as shown in the Figure above. The structure of the graph is a part of the problem description. </p>
+<p>The two components of the graph, i.e., its vertices and edges denote nodes in a network and the communication links between them, respectively. A subset of the nodes called the sources, denoted as \(s_1, s_2\) and \(s_3\), observe independent data, which are assumed to be elements of a finite field. A different subset of nodes called the terminals, are denoted as \(t_1, t_2, t_3\) and each of them wants to compute with zero error the finite field sum of all the data observed at the source nodes. The edges in the network, shown as \(e\), are one-way communication links that are error-free. The objective is to come up with a scheme, called a <i>network code</i>, that specifies what descriptions are to be transmitted over each edge in the graph, such that every terminal is satisfied. We can associate a <i>computation rate</i> with every network code that solves a sum-network; this characterizes the communication load on the network. The least upper bound to the best possible rate that can be achieved is called the computation capacity of that sum-network. Sum-networks are useful to look at because of their connections to other general classes of communication problems over networks.</p>
+<p>As a part of my Ph.D. research, I have constructed several infinite families of sum-networks using a systematic procedure on combinatorial block designs and evaluated their computation capacity analytically. As a consequence, I have shown that in general, the computation capacity of a sum-network changes if the underlying finite field alphabet of the data is changed. This is possible because some of the intermediate computations in the network become more efficient over certain finite fields. The structure of the network plays an important role in this.</p>
+<h3>Variable-length network codes</h3>
+<table class="imgtable"><tr><td>
+<img src="fig.jpg" alt="Network with three sources and one terminal" width="180px" height="180px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>Consider now a more specific network shown in the above Figure. Suppose each source observes a data value that is either \(0\) or \(1\), and the terminal wishes to compute with zero error the sum, over the real numbers, of the three data values. This is the simplest non-tree network structure, and its computation capacity is known to be \(\log_6 4 \approx 0.77\) in the standard network code framework. This value is obtained after counting the necessary and sufficient number of distinct messages that are transmitted over the edges \((s_1, t)\) and \((s_2, t)\). </p>
+<p>Suppose now that each of the data values is known to be equally likely to be \(0\) or \(1\). A traditional network code assigns the same amount of communication resources for each edge and each block of data values. However, by relaxing this requirement, i.e., by letting the edge messages have variable-length based on the current block of data values, we can use the probability information to compress the number of bits that can be represented in the messages. This allows us to reduce the communication load; in this example, we demonstrate a network code with rate \(0.8\) in the variable-length network code framework. We also show an upper bound of \(8/9\) for the rate, characterizing this upper bound for more general function computation problems is a work in progress.</p>
+<h2>Privacy-preserving data analysis</h2>
+<p>The previous two scenarios, in their  essence, considered the problem of efficiently combining data over a network. We now consider the problem of <i>what</i> data is most necessary for us to obtain good predictions. During the course of an internship at Mitsubishi Electric Research Labs, Boston, I have worked on the problem of privacy-preserving data analysis. </p>
+<p>The premise of the problem can be illustrated with the example of central air-conditioning. Suppose we have temperature sensors in every room of the building, and we have all of their data. While that would enable the control unit to make an optimal decision, a malicious agent having access to the same dataset would be able to infer some sensitive attributes. For example, it is reasonable to assume that the temperature in a room is affected by the number of people present in it. Having access to this data at a fine time scale would allow the malicious agent to reliably infer the movement of occupants in the building.</p>
+<h3>Using adversarial neural networks</h3>
+<p>What we would like to do is to <i>sanitize</i> the raw dataset, so as to ensure that uncertainty about recognized sensitive attributes remains high. In the process, we would like to have minimal impact on the utility of the dataset for its legitimate purpose. In the above example, the sensitive attribute could be the occupant status of each room, and the legitimate purpose is deciding whether to heat or cool. The general setup of the problem is shown below. The observed dataset \(W\) is passed through a possibly randomized data release mechanism to obtain a sanitized version \(Z\) fit for release.</p>
+<table class="imgtable"><tr><td>
+<img src="PPAN_setup.jpg" alt="Privacy-utility tradeoff setup" width="810px" height="88px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>This problem can be formulated, for e.g., using information theoretic privacy as quantifying the uncertainty over the sensitive attributes. Over certain synthetic datasets, we are able to analytically find the optimum privacy-utility tradeoff using knowledge of the random process generating the data. Ignoring the data model and just using training data samples, we can use adversarial neural networks to generate a sanitized release of the test dataset. We have observed that the operating points achieved by the generated test dataset on the privacy-utility tradeoff plane is very close to the optimal. We show an interesting application of this approach on the MNIST handwritten digits dataset in the preprint. There we used adversarial networks to obfuscate the digit while keeping the pixel-wise image distortion low.</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2018-08-29 08:48:10 CDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
