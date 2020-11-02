@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Ardhendu S. Tripathy"
 title_separator          : "-"
-name                     : &name "Ardhendu S. Tripathy"
+name                     : &name "Home"
 description              : &description "Research Summary"
 url                      : https://astripathy.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Ardhendu S. Tripathy"
   avatar           : "profile.png"
-  bio              : "Assistant Professor"
+  bio              : #"Researcher in "
   location         : "Rolla, MO"
   employer         : 
   pubmed           : 
