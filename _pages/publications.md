@@ -15,4 +15,3 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-Preprints for all papers are at [arXiv](https://arxiv.org/a/tripathy_a_1.html)
