@@ -9,13 +9,11 @@ redirect_from:
 ---
 
 Assistant Professor
-
 [Department of Computer Science](https://cs.mst.edu)
-
 [Missouri University of Science & Technology](https://mst.edu)
-
 Rolla, MO
 
+<kbd> astripathy@mst.edu </kbd>
 
 Prior to joining Missouri S&T, I was a postdoc with [Robert Nowak](https://nowak.ece.wisc.edu/) at the [University of Wisconsin-Madison](www.wisc.edu). I received my Ph.D. from [Iowa State University](www.iastate.edu) working with [Aditya Ramamoorthy](www.ece.iastate.edu/adityar/).
 

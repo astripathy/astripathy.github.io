@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Bio"
 title_separator          : "-"
-name                     : &name "Ardhendu S. Tripathy"
+name                     : &name "Ardhendu Shekhar Tripathy"
 description              : &description "Research Summary"
 url                      : https://astripathy.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Ardhendu S. Tripathy"
-  avatar           : "profile.png"
+  avatar           : "tripathy.jpg"
   bio              : " "
   location         : #"Rolla, MO"
   employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=OnebtwYAAAAJ&sortby=pubdate"
-  email            : "astripathy@mst.edu"
+  email            : # "astripathy@mst.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -115,6 +115,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  ArXiV            : "https://arxiv.org/a/tripathy_a_1.html"
 
 
 # Reading Files
