@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Ardhendu S. Tripathy"
-  avatar           : "https://github.com/astripathy/astripathy.github.io/blob/master/tripathy.png"
+  avatar           : "tripathy.png"
   bio              : " "
   location         : #"Rolla, MO"
   employer         : 
@@ -89,7 +89,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=OnebtwYAAAAJ&sortby=pubdate"
   email            : # "astripathy@mst.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              : "https://arxiv.org/a/tripathy_a_1.html"
+  uri              : [arXiv](https://arxiv.org/a/tripathy_a_1.html)
   bitbucket        :
   codepen          :
   dribbble         :
