@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Bio"
 title_separator          : "-"
-name                     : &name "Home"
+name                     : &name "Ardhendu S. Tripathy"
 description              : &description "Research Summary"
 url                      : https://astripathy.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -83,7 +83,7 @@ author:
   name             : "Ardhendu S. Tripathy"
   avatar           : "profile.png"
   bio              : " "
-  location         : "Rolla, MO"
+  location         : #"Rolla, MO"
   employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=OnebtwYAAAAJ&sortby=pubdate"
