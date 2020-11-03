@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Assistant Professor
-[Department of Computer Science](https://cs.mst.edu)
-[Missouri University of Science & Technology](https://mst.edu)
+Assistant Professor  
+[Department of Computer Science](https://cs.mst.edu)  
+[Missouri University of Science & Technology](https://mst.edu)  
 Rolla, MO
 
 <kbd> astripathy@mst.edu </kbd>
