@@ -89,7 +89,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=OnebtwYAAAAJ&sortby=pubdate"
   email            : # "astripathy@mst.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              : [arXiv](https://arxiv.org/a/tripathy_a_1.html)
+  uri              : #[arXiv](https://arxiv.org/a/tripathy_a_1.html)
   bitbucket        :
   codepen          :
   dribbble         :
