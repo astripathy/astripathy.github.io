@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Ardhendu S. Tripathy"
-  avatar           : "/images/tripathy.png"
+  avatar           : "./images/tripathy.png"
   bio              : " "
   location         : #"Rolla, MO"
   employer         : 
