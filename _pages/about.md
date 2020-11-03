@@ -15,7 +15,7 @@ Rolla, MO
 
 <kbd> astripathy@mst.edu </kbd>
 
-Prior to joining Missouri S&T, I was a postdoc with [Robert Nowak](https://nowak.ece.wisc.edu/) at the [University of Wisconsin-Madison](www.wisc.edu). I received my Ph.D. from [Iowa State University](www.iastate.edu) working with [Aditya Ramamoorthy](www.ece.iastate.edu/adityar/).
+Prior to joining Missouri S&T, I was a postdoc with [Robert Nowak](https://nowak.ece.wisc.edu/) at the [University of Wisconsin-Madison](https://www.wisc.edu). I received my Ph.D. from [Iowa State University](https://www.iastate.edu) working with [Aditya Ramamoorthy](https://www.ece.iastate.edu/adityar/).
 
 
 <!-- Getting started
