@@ -10,13 +10,13 @@ The mission of the Statistical Machine Learning Lab is to obtain methods for aut
 Lab members
 ========
 
-Shreen Gul
+## Shreen Gul
 
 <img src="/images/gul.jpg" alt="Shreen" width="200"/>
 
 Shreen is a Ph.D. student currently in her second semester. She received her BS in Computer Science from the University of Engineering and Technology (UET) Lahore. She is working on active learning methods for neural networks.
 
-Joshua Caruso
+## Joshua Caruso
 
 <img src="/images/caruso.jpg" alt="Joshua" width="200"/>
 
