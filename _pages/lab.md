@@ -11,11 +11,13 @@ Lab members
 ========
 
 Shreen Gul
-![](/images/gul.jpg)
+
+![](/images/gul.jpg | width=40)
 
 Shreen is a Ph.D. student currently in her second semester. She received her BS in Computer Science from the University of Engineering and Technology (UET) Lahore. She is working on active learning methods for neural networks.
 
 Joshua Caruso
-![](/images/caruso.jpg)
+
+![](/images/caruso.jpg | width=40)
 
 Joshua is an undergraduate student currently in his third semester. He is enrolled in the Computer Science program at Missouri S&T. He is exploring the phenomenon of neural collapse in the terminal phase of training neural networks.
