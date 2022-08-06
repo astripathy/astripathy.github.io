@@ -17,7 +17,8 @@ Rolla, MO
 
 Prior to joining Missouri S&T, I was a postdoc with [Robert Nowak](https://nowak.ece.wisc.edu/) at the [University of Wisconsin-Madison](http://www.wisc.edu). I received my Ph.D. from [Iowa State University](http://www.iastate.edu) working with [Aditya Ramamoorthy](http://www.ece.iastate.edu/adityar/). Before that, I obtained my Bachelor of Technology in Electrical Engineering from the Indian Institute of Technology, Kanpur.
 
-[CV](https://github.com/astripathy/astripathy.github.io/blob/master/files/tripathy_CV_May22.pdf)
+
+<a href="https://astripathy.github.io/files/paper.pdf">CV</a>
 
 I am interested in identifying the fundamental hardness of, as well as designing new algorithms for, problems in machine learning. 
 My solution methods typically combine perspectives from optimization, signal processing, and information theory. 
