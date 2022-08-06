@@ -13,8 +13,6 @@ Assistant Professor
 [Missouri University of Science & Technology](https://mst.edu)  
 (formerly University of Missouri, Rolla)
 
-Rolla, MO
-
 <kbd> astripathy@mst.edu </kbd>
 
 <a href="https://astripathy.github.io/files/tripathy_CV_May22.pdf">CV</a>
