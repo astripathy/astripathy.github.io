@@ -5,7 +5,18 @@ permalink: /lab/
 author_profile: false
 ---
 
-The mission of the Statistical Machine Learning Lab is to obtain methods for autonomous systems that solve novel use-inspired research problems. Our focus is on using statistical techniques to theoretically analyze the performance of proposed methods and to quantify the hardness of the problem. We utilize algorithmic techniques to reduce their computational cost and make them feasible for real-world applications. Several problems we work on are of an interdisciplinary nature and involve collaboration both within and outside the Computer Science department. We provide a supportive and creative environment for undergraduate and graduate students to engage in current machine learning research.
+Lab News
+========
+
+* Oct 2022: Ardhendu gives an invited talk on Chernoff Sampling for Active Testing and Extension to Active Regression in the LIONS seminar series at Arizona State University.
+* Sep 2022: Ardhendu is serving as an Area Chair for the 26th AISTATS conference to be held in 2023.
+* Mar 2022: Ardhendu gives an invited talk on MaxGap Bandit: Adaptive Algorithms for Approximate Ranking in the Session on Recovering Permuted Data in the 56th Annual CISS conference. 
+* Jan 2022: Paper titled Chernoff Sampling for Active Testing and Extension to Active Regression accepted for publication in the 25th AISTATS conference. Authors are Subhojyoti Mukherjee, Ardhendu Tripathy, and Robert Nowak.
+* Jan 2022: Ardhendu Tripathy and Rui Bo from Electrical and Computer Engineering are co-PIs on a Kummer ignition grant titled Trustworthy Machine Learning (ML) & Artificial Intelligence (AI)-based Framework Development for Hybrid and Sustainable Energy Systems has been funded. PI is Syed Alam from Nuclear Engineering department.
+* Dec 2021: 
+
+
+
 
 Lab members
 ========
