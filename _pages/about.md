@@ -17,7 +17,7 @@ Assistant Professor
 
 <a href="https://astripathy.github.io/files/CV_Aug22.pdf">CV</a>
 
-Prior to joining Missouri S&T, I was a postdoc with [Robert Nowak](https://nowak.ece.wisc.edu/) at the [University of Wisconsin-Madison](http://www.wisc.edu). I received my Ph.D. from [Iowa State University](http://www.iastate.edu) working with [Aditya Ramamoorthy](http://www.ece.iastate.edu/adityar/). Before that, I obtained my Bachelor of Technology in Electrical Engineering from the Indian Institute of Technology, Kanpur.
+Prior to joining Missouri S&T, I was a postdoc with [Robert Nowak](https://nowak.ece.wisc.edu/) at the [University of Wisconsin-Madison](http://www.wisc.edu). I received my Ph.D. from [Iowa State University](https://www.iastate.edu) working with [Aditya Ramamoorthy](https://www.ece.iastate.edu/adityar/). Before that, I obtained my Bachelor of Technology in Electrical Engineering from the [Indian Institute of Technology, Kanpur](https://www.iitk.ac.in).
 
 
 
