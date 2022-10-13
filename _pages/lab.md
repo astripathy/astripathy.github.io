@@ -8,14 +8,14 @@ author_profile: false
 Lab News
 ========
 
-#### 2022
+### 2022
 * Oct 2022: Ardhendu gives an invited talk on _Chernoff Sampling for Active Testing and Extension to Active Regression_ in the LIONS seminar series at Arizona State University.
 * Sep 2022: Ardhendu is serving as an Area Chair for the 26th AISTATS conference to be held in 2023.
 * Mar 2022: Ardhendu gives an invited talk on _MaxGap Bandit: Adaptive Algorithms for Approximate Ranking_ in the Session on Recovering Permuted Data in the 56th Annual CISS conference. 
 * Jan 2022: Paper titled _Chernoff Sampling for Active Testing and Extension to Active Regression_ accepted for publication in the 25th AISTATS conference. Authors are Subhojyoti Mukherjee, Ardhendu Tripathy, and Robert Nowak.
 * Jan 2022: Ardhendu Tripathy and Rui Bo from Electrical and Computer Engineering are co-PIs on a grant titled _Trustworthy Machine Learning (ML) & Artificial Intelligence (AI)-based Framework Development for Hybrid and Sustainable Energy Systems_ that has been funded by the Kummer ignition initiative. PI is Syed Alam from Nuclear Engineering department.
 
-#### 2021
+### 2021
 * Dec 2021: Lab members organized the _2021 Rolla NeurIPS Meetup_. The schedule of talks streamed can be found in the advertised <a href="https://astripathy.github.io/files/2021_Rolla_NeurIPS_Meetup_print.pdf">flyer</a>. The event was attended by more than 30 students and faculty across campus.
 * Oct 2021: Joshua Caruso has joined the lab as an undergraduate research student. 
 * Sep 2021: Shreen Gul has joined the lab as a graduate research student.
