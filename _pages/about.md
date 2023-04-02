@@ -15,7 +15,7 @@ Assistant Professor
 
 <kbd> astripathy@mst.edu </kbd>
 
-<a href="https://astripathy.github.io/files/CV_Aug22.pdf">CV</a>
+<a href="https://astripathy.github.io/files/Tripathy_CV.pdf">CV</a>
 
 Prior to joining Missouri S&T, I was a postdoc with [Robert Nowak](https://nowak.ece.wisc.edu/) at the [University of Wisconsin-Madison](http://www.wisc.edu). I received my Ph.D. from [Iowa State University](https://www.iastate.edu) working with [Aditya Ramamoorthy](https://www.ece.iastate.edu/adityar/). Before that, I obtained my Bachelor of Technology in Electrical Engineering from the [Indian Institute of Technology, Kanpur](https://www.iitk.ac.in).
 
@@ -23,9 +23,10 @@ Prior to joining Missouri S&T, I was a postdoc with [Robert Nowak](https://nowak
 
 I am interested in identifying the fundamental hardness of, as well as designing new algorithms for, problems in machine learning. 
 My solution methods typically combine perspectives from optimization, signal processing, and information theory. 
-Some of my recent work has focused on learning from human feedback. Using sequential analysis techniques from multi-armed bandit literature, I have designed algorithms that are efficient in the amount of human feedback needed. Other work I have done is in obtaining appropriate representations of data that satisfy certain desired characterestics, such as invariance to a nuisance/sensitive attribute. Going forward, I would like to work on problems in transfer and in-context learning, reinforcement learning, and explainable AI. 
+Some of my recent work has focused on learning from human feedback. Using sequential analysis techniques from multi-armed bandit literature, I have designed algorithms that are efficient in the amount of human feedback needed. Other work I have done is in obtaining appropriate representations of data that satisfy certain desired characterestics, such as invariance to a nuisance/sensitive attribute.  
 
 <!-- 
+Going forward, I would like to work on problems in transfer and in-context learning, reinforcement learning, and explainable AI.
 Students with good mathematical background interested in pursuing a Ph.D. or M.S. thesis are encouraged to contact me via email.
 
 
