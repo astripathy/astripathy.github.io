@@ -1,5 +1,9 @@
 # main links links
 main:
+
+  - title: "Statistical Machine Learning Lab"
+    url: /lab/
+
   - title: "Research"
     url: /research/
 
@@ -11,8 +15,7 @@ main:
     
 
         
-  - title: "Statistical Machine Learning Lab"
-    url: /lab/
+  
     
   # - title: "CV"
   #   url: /cv/

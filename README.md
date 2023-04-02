@@ -4,6 +4,8 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 
 ### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
 
+Read _data/navigation.yml
+
 # Instructions
 
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
