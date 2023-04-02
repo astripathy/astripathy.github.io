@@ -1,12 +1,10 @@
 ---
 layout: archive
-title: "Lab"
+title: "Statistical Machine Learning Lab"
 permalink: /lab/
 author_profile: false
 ---
 
-Statistical Machine Learning Lab
-================================
 
 News
 ====
