@@ -11,7 +11,7 @@ redirect_from:
 Assistant Professor  
 [Department of Computer Science](https://cs.mst.edu)  
 [Missouri University of Science & Technology](https://mst.edu)  
-(formerly University of Missouri, Rolla)
+(formerly University of Missouri--Rolla)
 
 <kbd> astripathy@mst.edu </kbd>
 
