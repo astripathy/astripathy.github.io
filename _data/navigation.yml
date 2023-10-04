@@ -2,16 +2,16 @@
 main:
 
   - title: "Lab"
-    url: /lab/
+    url: https://sites.mst.edu/smilelab #/lab/
 
-  - title: "Research"
-    url: /research/
+  #- title: "Research"
+  #  url: /research/
 
   # - title: "Talks"
   #   url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  #- title: "Teaching"
+  #  url: /teaching/    
     
 
         
